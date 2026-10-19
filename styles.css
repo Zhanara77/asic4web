@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { font-family: "Montserrat", sans-serif; }
+.train-page { background: #E6EFEC; color: #16302B; min-height: 100vh; }
+.train-card { max-width: 850px; background: #fff; border-radius: 22px; overflow: hidden; box-shadow: 0 14px 36px rgba(15, 107, 95, .16); }
+.train-header { background: #0F6B5F; color: #fff; padding: 22px 28px; }
+.train-header h1 { font-weight: 700; }
+.train-card .form-label, .train-card legend { font-size: .78rem; font-weight: 700; margin-bottom: .4rem; }
+.train-card .form-control, .train-card .form-select, .train-card .input-group-text { background: #F4F7F5; border-color: #E6EFEC; color: #16302B; border-radius: 10px; min-height: 42px; }
+.train-card .input-group-text { border-radius: 10px 0 0 10px; background: #0F6B5F; color: #fff; }
+.train-card .input-group .form-control { border-radius: 0 10px 10px 0; }
+.train-card .form-control:focus, .train-card .form-select:focus { border-color: #0F6B5F; box-shadow: 0 0 0 .2rem rgba(15,107,95,.15); }
+.trip-toggle { border: 1px solid #0F6B5F; border-radius: 20px; padding: 2px; }
+.trip-toggle .btn { border: 0; border-radius: 18px !important; font-size: .78rem; color: #0F6B5F; }
+.trip-toggle .btn-check:checked + .btn { background: #0F6B5F; color: #fff; }
+.form-check-input:checked { background-color: #0F6B5F; border-color: #0F6B5F; }
+.btn-clear, .btn-find { border-radius: 22px; padding: 10px 22px; font-weight: 700; }
+.btn-clear { border: 1px solid #16302B; color: #16302B; background: #fff; }
+.btn-clear:hover { background: #F4F7F5; }
+.btn-find { background: #F2A93B; color: #16302B; border: 1px solid #F2A93B; }
+.btn-find:hover { background: #e89b28; border-color: #e89b28; }
+@media (max-width: 575.98px) {
+  .train-card { border-radius: 14px; }
+  .train-header { padding: 14px 18px; }
+  .train-header h1 { font-size: 1rem; }
+  .train-card form { padding: 16px !important; }
+  .train-card .form-control, .train-card .form-select { min-height: 38px; }
+}
